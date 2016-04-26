@@ -1,3 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
 @import "../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap-sprockets.scss";
 @import "../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+
+@import "components/_shared.scss";
+@import "components/_head.scss";
+@import "components/_infinite.scss";
+@import "components/_menu.scss";
+@import "components/_pointout.scss";
+@import "components/_services.scss";
+@import "components/_qualite.scss";
+@import "components/_contact.scss";
+@import "components/_footer.scss";
