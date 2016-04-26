@@ -1,33 +1,64 @@
 /// COLORS ////
+$blue: #3498DB;
+$dark-blue: #00253E;
+$gray-text: #979797;
+$gray-background: #F5F5F5;
 
 ///// BUTTONS //////
 button {
+  padding: 1rem 3rem;
+  background-color: $blue;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  text-transform: uppercase;
   &.outlined {
-
+    background-color:transparent;
+    border: 2px white solid;
   }
   &.underlined {
-
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+    border-bottom: 2px $blue solid;
+    border-radius: 0;
+    padding: 0.2rem 0;
   }
 }
 
 
 ///// TITLES /////
 h2 {
-
+  letter-spacing: 1.7px;
+  &::after {
+    content: '';
+    position: absolute;
+    border: 2px solid blue;
+    width: 200px;
+    transform-origin: left;
+    transform:translateY(4rem);
+    left:0;
+  }
 }
 
 
 ////// PARAGRAPHS /////
 p {
+  color: $gray-text;
+  font-family: 'Open Sans';
+  line-height: 30px;
+  font-weight: 100;
   &.tiny {
-
+    font-size:0.8rem;
   }
 }
 
 
-/////// ICONCS //////
-img {
-
+/////// ICONS //////
+img .svg {
+  width: 50px;
+  display: block;
+  margin: auto;
 }
 
 

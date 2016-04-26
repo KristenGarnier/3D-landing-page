@@ -1,0 +1,22 @@
+#menu {
+ nav {
+   background-color: white;
+   border: none;
+   ul{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     li {
+       a {
+         text-transform: uppercase;
+         color: black;
+         font-weight: bold;
+       }
+     }
+   }
+
+   .navbar-brand img {
+     max-width: 175px;
+   }
+ }
+}

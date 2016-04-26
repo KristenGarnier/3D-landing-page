@@ -2,6 +2,10 @@
 @import "../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap-sprockets.scss";
 @import "../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 
+* {
+  font-family: 'Open Sans';
+}
+
 @import "components/_shared.scss";
 @import "components/_head.scss";
 @import "components/_infinite.scss";
