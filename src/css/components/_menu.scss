@@ -11,6 +11,18 @@
          text-transform: uppercase;
          color: black;
          font-weight: bold;
+
+
+         &.active {
+           &::before{
+             content: '';
+
+             position: absolute;
+             width: 20px;
+             border-bottom: 3px $blue solid;
+             transform: translateY(-10px);
+           }
+         }
        }
      }
    }
