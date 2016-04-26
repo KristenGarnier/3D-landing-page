@@ -1,15 +1,16 @@
 #infinite {
+  position: relative;
   padding-bottom: 10vh;
-  height: 80vh;
+  height: 50vh;
   p{
     margin-top: 6rem;
     margin-bottom: 3rem;
   }
 
-  .img-holder{
     img{
-      height: 85vh;
+      position: absolute;
+      width: 85vh;
       margin-top: -10vh;
+      z-index: 0;
     }
-  }
 }

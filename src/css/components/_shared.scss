@@ -56,7 +56,8 @@ p {
   line-height: 30px;
   font-weight: 100;
   &.tiny {
-    font-size:0.8rem;
+    font-size:1rem;
+    line-height: 20px;
   }
 }
 
