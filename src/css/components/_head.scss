@@ -1,9 +1,81 @@
 #head {
-  #head-text-action{
+  background: $gray;
+  height: 100vh;
+  background: url('../img/headbkg.jpg') no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  .head-text-action {
+    padding: 0 5rem;
+    h1 {
+      padding: 2rem 0;
+      color: white;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 5.2rem;
+      letter-spacing: 2px;
 
+      &::before {
+        position: absolute;
+        content: '';
+        height: 15vh;
+        transform: translateX(-1vw);
+        border-left: solid 2px $blue;
+      }
+    }
+
+    button {
+      &.outlined {
+        margin-left: 2rem;
+      }
+    }
   }
 
-  #head-representation {
+  .head-representation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    img {
+      width: 30vw;
+      margin-left: -90px;
+    }
 
+    .precision {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      transform: translate(-30px, 50px);
+      img {
+        width: 5vw;
+        padding: 2rem;
+        border-radius: 50%;
+        background-color: $blue;
+      }
+
+      div {
+        margin-left: 1rem;
+        strong {
+          color: white;
+          text-transform: uppercase;
+        }
+        p {
+          line-height: 12px;
+          font-size: 1rem;
+          color: white;
+          a{
+            color: white;
+            text-decoration: none;
+            color: $blue;
+            transition: 0.2s ease color;
+
+            &:hover {
+              color: lighten($blue, 10);
+            }
+          }
+        }
+      }
+    }
   }
 }

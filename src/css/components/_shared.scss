@@ -1,3 +1,8 @@
+////// GENERAL OVERFLOW /////
+.page {
+  overflow: hidden;
+}
+
 /// COLORS ////
 $blue: #3498DB;
 $dark-blue: #00253E;
@@ -61,4 +66,12 @@ img .svg {
   margin: auto;
 }
 
-
+/// DIVIDERS ///
+div.tilted-divider {
+  margin-top: -8vh;
+  margin-left: -2vw;
+  height: 16vh;
+  width: 110vw;
+  background: white;
+  transform: rotate(4deg);
+}
