@@ -56,7 +56,7 @@ p {
   line-height: 30px;
   font-weight: 100;
   &.tiny {
-    font-size:1rem;
+    font-size:1.2rem;
     line-height: 20px;
   }
 }
@@ -77,4 +77,32 @@ div.tilted-divider {
   width: 110vw;
   background: white;
   transform: rotate(4deg);
+}
+
+hr {
+  border-top: $blue 1px solid;
+  width: 20%;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+/// COMPONENT
+.exemple {
+  padding: 1.5rem;
+  img{
+    max-width: 50px;
+    display: block;
+    margin: auto;
+  }
+  h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+    color: $blue;
+  }
+  p {
+    text-align: center;
+    margin-top: 2rem;
+  }
 }

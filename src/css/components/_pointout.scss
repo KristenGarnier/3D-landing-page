@@ -1,0 +1,41 @@
+#pointout {
+  background:url("../img/pointout.png") no-repeat center, $dark-blue;
+  background-size: cover;
+  padding: 10vh;
+
+  h3 {
+    color: $blue;
+    font-weight: bold;
+    text-align: center;
+    border: 4px $blue solid;
+    padding: 2rem ;
+    text-transform: uppercase;
+    display: block;
+    width: 50%;
+    margin: auto;
+    margin-top: 10vh;
+  }
+  p {
+    text-align: center;
+    width: 60%;
+    display: block;
+    margin: auto;
+    color: white;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  
+  .underlined {
+    color: white;
+    display: block;
+    margin: auto;
+    margin-bottom: 10vh;
+  }
+
+  .side-image {
+    position: absolute;
+    width: 20vw;
+    left: 2vw;
+    margin-top: -35vh;
+  }
+}

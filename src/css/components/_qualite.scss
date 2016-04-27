@@ -1,9 +1,32 @@
 #qualite {
-  #qualite-intro {
-
+  padding: 10vh;
+  background-color: $gray-background;
+  h3.title {
+    color: $blue;
+    font-weight: bold;
+    text-align: center;
+    padding: 2rem ;
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+  .qualite-intro {
+    p {
+      text-align: center;
+      width: 60%;
+      display: block;
+      margin: auto;
+      margin-top: 5vh;
+      margin-bottom: 5vh;
+    }
   }
 
-  #qualite-application {
-
+  .exemple {
+    h3 {
+      font-weight: 500;
+      font-size: 1.8rem;
+      text-transform: inherit;
+    }
   }
+
 }

@@ -4,38 +4,11 @@
   padding-top: 10vh;
   padding-bottom: 10vh;
 
-  hr {
-    border-top: $blue 1px solid;
-    width: 20%;
-    margin-top: 6rem;
-    margin-bottom: 6rem;
-  }
-
   .service-intro{
     width: 70%;
     display: block;
     margin: auto;
     margin-top: 8rem;
     text-align: center;
-  }
-
-  .services-example {
-    .exemple {
-      padding: 1.5rem;
-      img{
-        max-width: 50px;
-        display: block;
-        margin: auto;
-      }
-      h3 {
-        text-align: center;
-        text-transform: uppercase;
-        font-weight: bold;
-        color: $blue;
-      }
-      p {
-        text-align: center;
-      }
-    }
   }
 }
