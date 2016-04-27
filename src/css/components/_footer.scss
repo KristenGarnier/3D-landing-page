@@ -1,9 +1,15 @@
 #footer {
-  #footer-menu {
+  padding: 4rem;
 
+  p {
+    margin: 0;
+    text-align: center;
+    a {
+      &:hover {
+        text-decoration: none;
+      }
+    }
   }
 
-  #footer-legal {
 
-  }
 }
