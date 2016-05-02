@@ -1,5 +1,9 @@
 #pointout {
   background:url("../img/pointout.png") no-repeat center, $dark-blue;
+  @media screen and (max-width: $break-mobile) {
+    background: $dark-blue;
+    padding: 2vh;
+  }
   background-size: cover;
   padding: 10vh;
 
@@ -14,6 +18,9 @@
     width: 50%;
     margin: auto;
     margin-top: 10vh;
+    @media screen and (max-width: $break-mobile) {
+      width: 100%;
+    }
   }
   p {
     text-align: center;
@@ -23,6 +30,10 @@
     color: white;
     margin-top: 5vh;
     margin-bottom: 5vh;
+    @media screen and (max-width: $break-mobile) {
+      width: 100%;
+      text-align: left;
+    }
   }
   
   .underlined {
@@ -30,6 +41,10 @@
     display: block;
     margin: auto;
     margin-bottom: 10vh;
+    @media screen and (max-width: $break-mobile) {
+      margin: 4vw;
+      margin-bottom: 10vh;
+    }
   }
 
   .side-image {
@@ -37,5 +52,8 @@
     width: 20vw;
     left: 2vw;
     margin-top: -35vh;
+    @media screen and (max-width: $break-mobile) {
+      display: none;
+    }
   }
 }

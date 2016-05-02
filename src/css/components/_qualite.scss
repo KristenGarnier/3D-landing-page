@@ -1,5 +1,8 @@
 #qualite {
   padding: 10vh;
+  @media screen and (max-width: $break-mobile) {
+    padding: 10vh 2vh;
+  }
   background-color: $gray-background;
   h3.title {
     color: $blue;
@@ -9,6 +12,9 @@
     display: block;
     width: 80%;
     margin: auto;
+    @media screen and (max-width: $break-mobile) {
+      width: 100%;
+    }
   }
   .qualite-intro {
     p {
@@ -18,6 +24,10 @@
       margin: auto;
       margin-top: 5vh;
       margin-bottom: 5vh;
+      @media screen and (max-width: $break-mobile) {
+        width: 100%;
+        text-align: left;
+      }
     }
   }
 

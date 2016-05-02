@@ -30,6 +30,9 @@
 
    .navbar-brand img {
      max-width: 175px;
+     @media screen and (max-width: $break-mobile) {
+       max-width: 100px;
+     }
    }
  }
 }

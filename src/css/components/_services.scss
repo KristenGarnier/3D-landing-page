@@ -10,5 +10,11 @@
     margin: auto;
     margin-top: 8rem;
     text-align: center;
+    @media screen and (max-width: $break-mobile) {
+      width: 100%;
+      p {
+        text-align: left;
+      }
+    }
   }
 }

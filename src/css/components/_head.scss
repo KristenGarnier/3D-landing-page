@@ -3,6 +3,9 @@
   height: 100vh;
   background: url('../img/headbkg.jpg') no-repeat;
   background-size: cover;
+  @media screen and (max-width: $break-mobile) {
+    background-position: center;
+  }
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -16,6 +19,9 @@
       font-weight: bold;
       font-size: 5.2rem;
       letter-spacing: 2px;
+      @media screen and (max-width: $break-mobile) {
+        font-size: 3rem;
+      }
 
       &::before {
         position: absolute;
@@ -23,12 +29,24 @@
         height: 15vh;
         transform: translateX(-1vw);
         border-left: solid 2px $blue;
+        @media screen and (max-width: $break-mobile) {
+          transform: translateX(-5vw);
+          height: 21vh;
+        }
       }
     }
 
     button {
+      @media screen and (max-width: $break-mobile) {
+        display: block;
+        margin: auto;
+      }
       &.outlined {
         margin-left: 2rem;
+        @media screen and (max-width: $break-mobile) {
+          margin: auto;
+          margin-top: 3rem;
+        }
       }
     }
   }
@@ -37,6 +55,10 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    @media screen and (max-width: $break-mobile) {
+      display: none;
+    }
+
     img {
       width: 30vw;
       margin-left: -90px;

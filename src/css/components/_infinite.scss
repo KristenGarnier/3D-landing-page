@@ -2,12 +2,18 @@
   position: relative;
   padding-bottom: 10vh;
   height: 50vh;
+  @media screen and (max-width: $break-mobile) {
+    height: auto;
+  }
   p{
     margin-top: 6rem;
     margin-bottom: 3rem;
   }
 
     img{
+      @media screen and (max-width: $break-mobile) {
+        display: none;
+      }
       position: absolute;
       width: 85vh;
       margin-top: -10vh;
