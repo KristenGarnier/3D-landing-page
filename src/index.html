@@ -29,10 +29,10 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#" class="active">Accueil</a></li>
-                        <li><a href="#">Nos services</a></li>
-                        <li><a href="#">L'entreprise</a></li>
-                        <li><a href="#">
+                        <li><a data-scroll href="#head">Accueil</a></li>
+                        <li><a data-scroll href="#services">Nos services</a></li>
+                        <li><a data-scroll href="#qualite">Qualité</a></li>
+                        <li><a data-scroll href="#contact">
                             <button>
                                 Nous contacter
                             </button>
@@ -44,7 +44,7 @@
     </section>
     <section id="head">
         <div class="head-text-action col-md-7">
-            <h1>Spécialiste impression 3D laser à saint étienne</h1>
+            <h1>Spécialiste impression 3D à destination du médical</h1>
             <div>
                 <button>Découvrez nos procédés</button>
                 <button class="outlined">Nous contacter</button>
@@ -56,7 +56,7 @@
                 <img src="img/target.png" alt="Précision impression 3D">
                 <div>
                     <strong>Grande précision</strong>
-                    <p>Doté d’une précision chirurgicale de <a href="">0.1mm</a>, nos impressions 3D sont idéales.</p>
+                    <p>Doté d’une précision chirurgicale de <a href="">0.2mm</a>, nos impressions 3D sont idéales.</p>
                 </div>
 
             </div>
@@ -70,9 +70,11 @@
                     <h2>Des possiblités infinies</h2>
                     <p>
                         L'impression 3D peut donner vie à n'importe quel objet, aussi complexe qu'il puisse être. <br>
-                        Ayant de nombreuses applications, cette technologie peut être utilisé dans différent domaines, la décoration, l'industrie de pointe, ou encore le domaine médical.
+                        Ayant de nombreuses applications, cette technologie peut être utilisée dans différents domaines,
+                        la décoration, l'industrie de pointe, ou encore le domaine médical.
                         <br>
-                        L'impression 3D est donc le moyen le plus simple de créer des pièces uniques et complexes, en un seul processus.
+                        L'impression 3D est donc le moyen le plus simple de créer des pièces uniques et complexes, en un
+                        seul processus, pour un coût raisonnable.
                     </p>
                     <button class="underlined">
                         Réalisez l'impossible
@@ -89,7 +91,9 @@
             <h2>Passez commande et recevez le produit fini</h2>
             <div class="service-intro">
                 <p>
-                    Nous nous occupons de toutes les étapes intermédiaire dans le processus jusqu'à la livraison du produit chez vous. Vous n'avez pas besoin d'avoir un intermédiaire pour chaque étape, tout est réalisé ici en interne, ce qui représente un gain te temps et de côuts pour vous.
+                    Nous nous occupons de toutes les étapes intermédiaires dans le processus jusqu'à la livraison du
+                    produit chez vous ou chez votre client. Vous n'avez pas besoin d'avoir un intermédiaire pour chaque
+                    étape, tout est réalisé ici en interne, ce qui nous permet d'être très réactifs.
                 </p>
             </div>
             <hr>
@@ -99,38 +103,45 @@
                         <img src="img/science.svg" alt="Image prototype impression 3D">
                         <h3>prototypes</h3>
                         <p class="tiny">
-                            Testez la faisabilité de vos produit en faisant imprimer un prototype, un essai rapide et à moindre coût.
+                            Testez la faisabilité de vos produits en faisant imprimer un prototype, un essai rapide et à
+                            moindre coût.
                         </p>
                     </div>
                     <div class="col-md-3 exemple">
                         <img src="img/medical.svg" alt="Image prototype impression 3D">
                         <h3>produits cliniques</h3>
                         <p class="tiny">
-                            Les produits cliniques sont notre spécialités, nous en traitons des centaines chaque semaine dans nos salles blanches.
-                        </p>
-                    </div>
-                    <div class="col-md-3 exemple">
-                        <img src="img/signs.svg" alt="Image prototype impression 3D">
-                        <h3>stérilisation</h3>
-                        <p class="tiny">
-                            Toutes nos pièces soont stérilisées pour garantir la meilleur hygiènne possible à votre réception.
+                            Sortie de machine, nous pouvons réaliser des contrôles puis un lavage final, permettant de
+                            livrer des dispositifs stérilisables.
                         </p>
                     </div>
                     <div class="col-md-3 exemple">
                         <img src="img/box.svg" alt="Image prototype impression 3D">
                         <h3>emballage</h3>
                         <p class="tiny">
-                            Sur demande, nous emballons vos produits aux couleurs de votre entreprise, afin de vous faire gagner du temps.
+                            Sur demande, nous pouvons réaliser le packaging de vos produits aux couleurs de votre entreprise.
                         </p>
                     </div>
+                    <div class="col-md-3 exemple">
+                        <img src="img/signs.svg" alt="Image prototype impression 3D">
+                        <h3>stérilisation</h3>
+                        <p class="tiny">
+                            Nous vous proposons, en partenariat avec un stérilisateur de réaliser la prestation
+                            complete. <br>( sous couvert de nos validations existantes )
+                        </p>
+                    </div>
+
                 </div>
             </div>
         </div>
     </section>
     <section id="pointout">
         <div class="container">
-            <h3>Une précision à couper le souffle</h3>
-            <p>Ayant 0.1mm de précision sur nos appareils d'impression 3D, nous sommes capable de réaliser des pièces avec une précision remarquable. Cette précision permet de ne retoucher qu'un minnimum les pièces, contrairement à une machine traditionnnelle, où la pièces doit subir un traitement lourd après être sortie de la machine. </p>
+            <h3>Le soin du détail</h3>
+            <p>Soucieux de vous fournir le meilleur service possible, nous sommes en mesure de vous proposer des
+                prestations complémentaires à la simple impression 3D :
+                <br>Des services tels que le contrôle dimensionnel, la lavage, le conditionnement, le packaging pour
+                les produits clinique, ou la tribofinition, la peinture pour le matériel de présentation.</p>
         </div>
         <button class="underlined">
             Démarrer mon impression
@@ -144,7 +155,9 @@
             </h3>
             <div class="qualite-intro">
                 <p>
-                    La plus grande partie de notre activité s'articule autour du médical, de ce fait nous avons mis au point un service de qualité avec contrôle, pour être sur de vous livrer les meilleurs produits, dans les meilleures conditions.
+                    100% de notre activité s'articule autour du médical, de ce fait nous avons mis au
+                    point un service de qualité avec contrôle, pour être sûr de vous livrer les meilleurs produits, dans
+                    les meilleures conditions.
                 </p>
             </div>
 
@@ -154,21 +167,24 @@
                     <img src="img/cleanair.svg" alt="Image prototype impression 3D">
                     <h3>Salle blanche sous air controllé</h3>
                     <p class="tiny">
-                        Pour éviter tout contact avec la poussière, ou toute autre bactérie de l'air ambiant, l'air de la salle de production est filtré et controller pour répondre à des exigences ISO très précises.
+                        Une parfaite maîtrise de l'environnement nous permet d'assurer l'état de propreté des
+                        dispositifs médicaux.
                     </p>
                 </div>
                 <div class="col-md-4 exemple">
                     <img src="img/loupe.svg" alt="Image prototype impression 3D">
                     <h3>Contrôle systématique</h3>
                     <p class="tiny">
-                        Pour vous faire parvenir des productions sans failles, toute pièces sortant de production est automatiquement controllé par nos opérateurs, afin de débusquer la moindre annomalie.
+                        Afin d'assurer la conformité des produits, nous vous proposons un contrôle personnalisé suivant
+                        les éléments fournis.
                     </p>
                 </div>
                 <div class="col-md-4 exemple">
                     <img src="img/call.svg" alt="Image prototype impression 3D">
                     <h3>Un technicien à votre écoute</h3>
                     <p class="tiny">
-                        À tout moment, vous pouvez etre mis en relation avec nos techniciens pour de simples questions, une identification de vos besoins, ou des conseils.
+                        À tout moment, vous pouvez etre mis en relation avec nos techniciens pour de simples questions,
+                        une identification de vos besoins, ou des conseils.
                     </p>
                 </div>
             </div>
@@ -176,7 +192,7 @@
     </section>
     <section id="contact">
         <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAvYsW6ViGaJUcadPd2pfWDG_OI6M_W6HE
-    &q=Finortho,Sain-Etienne"
+    &q=7 rue de la robotique,Sain-Etienne"
                 frameborder="0" style="border:0" allowfullscreen>
 
         </iframe>
@@ -186,26 +202,26 @@
             </div>
             <div class="infos">
                 <h4>Nous contacter</h4>
-                <strong>04 45 54 54 45 / contact@marle.fr</strong>
+                <strong>04 77 21 64 20 / frittage.finishing@marle.fr</strong>
                 <p>Vous souhaitez en savoir un peu plus sur nous ? N’hésitez pas a nous envoyer un email, ou de appeler
                     tout simplement. </p>
                 <div class="info">
                     <p>
-                        Marle finishing
+                        Marle Finishing
                         <br>
-                        9 rue de la robotique
+                        7 rue de la Robotique
                         <br>
                         42100 Saint Étienne
                     </p>
-                    <button>Envoyer un mail</button>
+                        <button>Envoyer un mail</button>
 
                 </div>
             </div>
         </div>
     </section>
     <section id="footer">
-        <p >
-            Marle finishing, filialle de <strong><a>Marle orthopedics</a></strong> - <strong><a>Mentions
+        <p>
+            Marle finishing, filiale du <strong><a href="http://marle.fr">Groupe Marle</a></strong> - <strong><a>Mentions
             légales</a></strong>
         </p>
     </section>

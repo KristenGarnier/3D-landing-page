@@ -25,6 +25,7 @@
   "dependencies": {
     "bootstrap": "^3.3.6",
     "bootstrap-sass": "^3.3.6",
-    "jquery": "^2.2.0"
+    "jquery": "^2.2.0",
+    "smooth-scroll": "github:cferdinandi/smooth-scroll"
   }
 }
