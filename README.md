@@ -12,8 +12,16 @@ Install npm modules via your terminal :
     ``npm install``
     
 Then do the following to start generating dist files and serve your website locally :
-
 ``npm start``
+
+A new browser page should now open in your browser with the page
+
+##Create production bundle
+
+Via your terminal run : 
+``npm run dist``
+
+A dist folder will be created into the project's root folder, it contains all the optimized files, ready to be put on a server ! 
 
 ## Where are the source files ? 
 
